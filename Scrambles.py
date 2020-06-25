@@ -1,5 +1,3 @@
-import time
-
 def scramble(str1, str2):
     letters = {}
     for letter in str2:
@@ -11,9 +9,3 @@ def scramble(str1, str2):
             return False
     return True
 
-
-
-if __name__ == '__main__':
-    start_time = time.time()
-    print(scramble('vveqgvuuygp', 'hpsrmkhrft'))
-    print(time.time()-start_time)
